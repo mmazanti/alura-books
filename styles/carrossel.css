@@ -66,7 +66,7 @@
 }
 
 .botões__item {
-    margin: 0 0.5em;
+    margin: 0 0.5em 0 0;
 }
 
 .botões__ancora {
@@ -75,4 +75,41 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .swiper-slide {
+        margin: 0 2em 0 2em;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2em auto;
+        padding: 1.5em;
+    }
+
+    .descrição {
+        width: 65%;
+    }
+
+    .descrição__imagem {
+        padding: 0 0 1em 1em;
+    }
 }
